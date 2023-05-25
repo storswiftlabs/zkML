@@ -1,0 +1,10 @@
+{
+    "program": "decTreeGini.aleo",
+    "version": "0.0.0",
+    "description": "",
+    "development": {
+        "private_key": "APrivateKey1zkpJ9ihVLR7St2nUErw2hgYBsPwjsKGBCB5wAyHRcmeTiWB",
+        "address": "aleo1v2l8ldhnpdtv5s68n0nwkv5xzhmmln9yru792kuwa2e87gsydyqsjsqpx2"
+    },
+    "license": "MIT"
+}

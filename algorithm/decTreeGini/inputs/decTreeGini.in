@@ -1,0 +1,10 @@
+// The program input for decTreeGini/src/main.leo
+[main]
+
+[com_gini]
+// public m: mapping = {{0u32,11u32}};
+public x: u32 = 102u32;
+public y: u32 = 22u32;
+public s: u32 = 100u32;
+public preNode: u32 = 0u32;
+public nowLabel: u32 = 0u32;

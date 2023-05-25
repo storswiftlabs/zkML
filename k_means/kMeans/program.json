@@ -1,0 +1,10 @@
+{
+    "program": "kMeans.aleo",
+    "version": "0.0.0",
+    "description": "",
+    "development": {
+        "private_key": "APrivateKey1zkp4GhqjBgUfKW2KC2QBnyUGTv8tERfXCCoYdpHC22CN74t",
+        "address": "aleo1883ad5gldw5zwz9scrm0lfgnd0r8z9h0smdl08t9th20z4ck5vysknf5xs"
+    },
+    "license": "MIT"
+}

@@ -1,0 +1,15 @@
+[main]
+public dataset: Axis =  Axis{
+    x: 2000i32,
+    y: 6000i32,
+};
+public centers: KMeansCenters = KMeansCenters {
+    e0:  Axis{
+        x: 1167i32,
+        y: 1467i32,
+    },
+    e1:  Axis{
+        x: 7333i32,
+        y: 9000i32,
+    },
+};

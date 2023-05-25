@@ -1,0 +1,10 @@
+{
+    "program": "classify.aleo",
+    "version": "0.0.0",
+    "description": "",
+    "development": {
+        "private_key": "APrivateKey1zkpAfED9su4kyLD23mzqGskoBGBpP2XtTsKbdeeq5oAFnKc",
+        "address": "aleo1c47pwz5slyglwu0r97aswk8gg94tykvg0k6skmm4sny8nldjtsyqkfxa28"
+    },
+    "license": "MIT"
+}
