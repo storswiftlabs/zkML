@@ -48,7 +48,7 @@ cd ./kMeans
 leo run main
 ```
 
-![operate-01](README.assets/operate-01-16856958459771.gif)
+![operate-01](README.assets/operate-01.gif)
 
 ## Visualization
 
