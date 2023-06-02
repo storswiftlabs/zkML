@@ -55,14 +55,14 @@ if __name__ == '__main__':
     k_means = K_Means(k=2)
     k_means.fit(x)
     print(k_means.centers_)
-    for center in k_means.centers_:
-        pyplot.scatter(k_means.centers_[center][0], k_means.centers_[center][1], marker='*', s=150)
+    for index, center in enumerate(k_means.centers_):
+        pyplot.scatter(k_means.centers_[center][0], k_means.centers_[center][1], marker='*', s=150, c=('r' if index == 0 else 'b'))
 
     for cat in k_means.clf_:
         for point in k_means.clf_[cat]:
             pyplot.scatter(point[0], point[1], c=('r' if cat == 0 else 'b'))
 
-    predict_data = [[2, 1], [6, 9], [12,1]]
+    predict_data = [[2, 6 ]]
     for feature in predict_data:
         cat = k_means.predict(feature)
         pyplot.scatter(feature[0], feature[1], c=('r' if cat == 0 else 'b'), marker='x')

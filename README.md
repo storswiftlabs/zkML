@@ -24,15 +24,23 @@ Using Leo in machine learning training and prediction, Enabling machine learning
 # clone repository 
 git clone https://github.com/storswiftlabs/zkML.git
 
-#use python generated Leo code(decision tree)
+# Gini coefficient calculate
+cd zkML/algorithm/decTreeGini
+leo run com_gini  1u32 12u32
+
 cd zkML/decision_tree
+# execte decision tree python algorithm
+python dt.py
+# use python generated Leo code(decision tree)
 python ./generate_dt_leo.py
 # run Decision tree prediction Leo code
 cd ./classify
 leo run main
 
-#use python generated Leo code(k-Means)
-cd zkml/k_means
+cd zkML/k_means
+# execte k-Means python algorithm
+python k_means.py
+# use python generated Leo code(k-Means)
 python ./generate_k_means_leo.py
 # run k-Means prediction Leo code
 cd ./kMeans
@@ -43,11 +51,14 @@ leo run main
 
 ML model visualization in python
 
-decision tree
+### decision tree
 
 ![decision tree](./README.assets/Figure_1.png)
 
-k-Means
+### k-Means
+"×" means the newly added prediction point
+"★" means the center points
+"·" means the training points
 
 ![k-Means](./README.assets/Figure_2.png)
 
