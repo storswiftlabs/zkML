@@ -1,6 +1,7 @@
 # zkML
 
 ## Description
+
 Using Leo in machine learning training and prediction, Enabling machine learning algorithms can be run while protecting private data.
 
 ## Directory structure
@@ -26,7 +27,7 @@ git clone https://github.com/storswiftlabs/zkML.git
 
 # Gini coefficient calculate
 cd zkML/algorithm/decTreeGini
-leo run com_gini  1u32 12u32
+leo run com_gini 
 
 cd zkML/decision_tree
 # execte decision tree python algorithm
@@ -47,6 +48,8 @@ cd ./kMeans
 leo run main
 ```
 
+![operate-01](README.assets/operate-01-16856958459771.gif)
+
 ## Visualization
 
 ML model visualization in python
@@ -56,11 +59,14 @@ ML model visualization in python
 ![decision tree](./README.assets/Figure_1.png)
 
 ### k-Means
-"×" means the newly added prediction point
-"★" means the center points
-"·" means the training points
 
 ![k-Means](./README.assets/Figure_2.png)
+
+"×" means the newly added prediction point
+
+"★" means the center points
+
+"·" means the training points
 
 ## Notes
 
