@@ -39,6 +39,18 @@ cd ./kMeans
 leo run main
 ```
 
+## Visualization
+
+ML model visualization in python
+
+decision tree
+
+![decision tree](./README.assets/Figure_1.png)
+
+k-Means
+
+![k-Means](./README.assets/Figure_2.png)
+
 ## Notes
 
 If you have your own decision tree or k-Means configuration, you can modify the following in python.
